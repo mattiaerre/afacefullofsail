@@ -17,11 +17,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          name: Install
-          cmd: install
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          name: Test all
-          cmd: test:all
+      - name: Install
+        run: yarn install
+      - name: Test
+        run: yarn test:all
