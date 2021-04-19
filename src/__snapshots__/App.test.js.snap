@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot 1`] = `
+<div>
+  <article
+    class="App"
+  >
+    <p>
+      "But when I raise the sail and lose those ties, anyone else in the cockpit inevitably gets 
+      <b>
+        a face full of sail
+      </b>
+      ."
+    </p>
+    <footer
+      class="App__footer"
+    >
+      2021
+       
+      afacefullofsail
+       v
+      0.1.0
+    </footer>
+  </article>
+</div>
+`;

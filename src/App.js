@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import { name, version } from '../package.json';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <article className="App">
+      <p>
+        "But when I raise the sail and lose those ties, anyone else in the
+        cockpit inevitably gets <b>a face full of sail</b>."
+      </p>
+      <footer className="App__footer">
+        {new Date().getFullYear()} {name} v{version}
+      </footer>
+    </article>
   );
 }
 
