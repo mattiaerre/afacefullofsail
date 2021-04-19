@@ -18,7 +18,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "test:all": "yarn test --coverage --watchAll=false"
   },
   "eslintConfig": {
     "extends": [
