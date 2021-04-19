@@ -10,16 +10,18 @@ on:
 
 jobs:
   test_linux:
-    name: Test on Linux with Node.js ${{ matrix.node }}
+    name: Test
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node: [14]
     steps:
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node }}
-      - name: Install
-        run: yarn
-      - name: Run tests
-        run: yarn test:all
+          node-version: 14
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          name: Install
+          cmd: install
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          name: Test all
+          cmd: test:all
