@@ -2,9 +2,14 @@ import {
   A_FISHING_VESSEL_WITH_NETS_IN_THE_WATER,
   BIG_SHIP,
   GIVE_WAY,
+  LEEWARD,
+  // PORT,
   POWER_DRIVEN,
   SAILBOAT,
-  STAND_ON
+  STAND_ON,
+  STARBOARD,
+  UNKNOWN
+  // WINDWARD
 } from './constants';
 
 const hierarchy = {
@@ -14,6 +19,14 @@ const hierarchy = {
   [SAILBOAT]: 3
 };
 
+function byPosition(position) {
+  return position === LEEWARD ? STAND_ON : GIVE_WAY;
+}
+
+function byTack(tack) {
+  return tack === STARBOARD ? STAND_ON : GIVE_WAY;
+}
+
 function crossing(vesselA, vesselB) {
   if (hierarchy[vesselA.type] < hierarchy[vesselB.type]) {
     // e.g. big ship = 1 and sailboat = 3
@@ -22,8 +35,16 @@ function crossing(vesselA, vesselB) {
   } else if (hierarchy[vesselA.type] > hierarchy[vesselB.type]) {
     vesselA.isThe = GIVE_WAY;
     vesselB.isThe = STAND_ON;
+  } else if (vesselA.type === SAILBOAT && vesselB.type === SAILBOAT) {
+    if (vesselA.tack !== vesselB.tack) {
+      vesselA.isThe = byTack(vesselA.tack);
+      vesselB.isThe = byTack(vesselB.tack);
+    } else {
+      vesselA.isThe = byPosition(vesselA.position);
+      vesselB.isThe = byPosition(vesselB.position);
+    }
   } else {
-    throw new Error('same type');
+    throw new Error(UNKNOWN);
   }
 }
 

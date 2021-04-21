@@ -1,8 +1,10 @@
-import { UNKNOWN } from './constants';
+import { N_A, UNKNOWN } from './constants';
 
 class Vessel {
-  constructor(type) {
+  constructor({ position = UNKNOWN, tack = N_A, type }) {
     this.isThe = UNKNOWN;
+    this.position = position;
+    this.tack = tack;
     this.type = type;
   }
 }
