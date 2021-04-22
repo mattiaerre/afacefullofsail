@@ -7,8 +7,7 @@ import {
   POWER_DRIVEN,
   SAILBOAT,
   STAND_ON,
-  STARBOARD,
-  UNKNOWN
+  STARBOARD
   // WINDWARD
 } from './constants';
 
