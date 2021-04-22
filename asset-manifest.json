@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/afacefullofsail/static/css/main.87102c92.chunk.css",
-    "main.js": "/afacefullofsail/static/js/main.e664dcdc.chunk.js",
-    "main.js.map": "/afacefullofsail/static/js/main.e664dcdc.chunk.js.map",
+    "main.js": "/afacefullofsail/static/js/main.28eb8c7e.chunk.js",
+    "main.js.map": "/afacefullofsail/static/js/main.28eb8c7e.chunk.js.map",
     "runtime-main.js": "/afacefullofsail/static/js/runtime-main.9c9f22fe.js",
     "runtime-main.js.map": "/afacefullofsail/static/js/runtime-main.9c9f22fe.js.map",
-    "static/js/2.3676475e.chunk.js": "/afacefullofsail/static/js/2.3676475e.chunk.js",
-    "static/js/2.3676475e.chunk.js.map": "/afacefullofsail/static/js/2.3676475e.chunk.js.map",
+    "static/js/2.0059e9cf.chunk.js": "/afacefullofsail/static/js/2.0059e9cf.chunk.js",
+    "static/js/2.0059e9cf.chunk.js.map": "/afacefullofsail/static/js/2.0059e9cf.chunk.js.map",
     "static/js/3.2fdc08e4.chunk.js": "/afacefullofsail/static/js/3.2fdc08e4.chunk.js",
     "static/js/3.2fdc08e4.chunk.js.map": "/afacefullofsail/static/js/3.2fdc08e4.chunk.js.map",
     "index.html": "/afacefullofsail/index.html",
     "static/css/main.87102c92.chunk.css.map": "/afacefullofsail/static/css/main.87102c92.chunk.css.map",
-    "static/js/2.3676475e.chunk.js.LICENSE.txt": "/afacefullofsail/static/js/2.3676475e.chunk.js.LICENSE.txt"
+    "static/js/2.0059e9cf.chunk.js.LICENSE.txt": "/afacefullofsail/static/js/2.0059e9cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9c9f22fe.js",
-    "static/js/2.3676475e.chunk.js",
+    "static/js/2.0059e9cf.chunk.js",
     "static/css/main.87102c92.chunk.css",
-    "static/js/main.e664dcdc.chunk.js"
+    "static/js/main.28eb8c7e.chunk.js"
   ]
 }
