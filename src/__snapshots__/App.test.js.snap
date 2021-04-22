@@ -5,6 +5,11 @@ exports[`App snapshot 1`] = `
   <article
     class="App"
   >
+    <h1>
+      afacefullofsail
+       v
+      0.0.0-jest.0
+    </h1>
     <p>
       "But when I raise the sail and lose those ties, anyone else in the cockpit inevitably gets 
       <b>
@@ -12,21 +17,21 @@ exports[`App snapshot 1`] = `
       </b>
       ."
     </p>
-    <h1>
+    <h2>
       Crossing
-    </h1>
+    </h2>
     <ul>
       <li
         class="Section__li--standOn"
       >
         <section>
-          <h2>
+          <h3>
             Vessel A
-          </h2>
+          </h3>
           <form>
-            <h3>
+            <h4>
               Type
-            </h3>
+            </h4>
             <ul
               class="List"
             >
@@ -91,13 +96,13 @@ exports[`App snapshot 1`] = `
         class="Section__li--giveWay"
       >
         <section>
-          <h2>
+          <h3>
             Vessel B
-          </h2>
+          </h3>
           <form>
-            <h3>
+            <h4>
               Type
-            </h3>
+            </h4>
             <ul
               class="List"
             >
@@ -155,9 +160,9 @@ exports[`App snapshot 1`] = `
                 </label>
               </li>
             </ul>
-            <h3>
+            <h4>
               Tack
-            </h3>
+            </h4>
             <ul
               class="List"
             >
@@ -189,9 +194,9 @@ exports[`App snapshot 1`] = `
                 </label>
               </li>
             </ul>
-            <h3>
+            <h4>
               Position
-            </h3>
+            </h4>
             <ul
               class="List"
             >

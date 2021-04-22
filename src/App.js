@@ -82,9 +82,9 @@ function Section({ name, onChange, position, tack, type }) {
 
   return (
     <section>
-      <h2>{name}</h2>
+      <h3>{name}</h3>
       <form>
-        <h3>Type</h3>
+        <h4>Type</h4>
         <List
           collection={types}
           name="type"
@@ -93,14 +93,14 @@ function Section({ name, onChange, position, tack, type }) {
         />
         {selectedType === SAILBOAT && (
           <>
-            <h3>Tack</h3>
+            <h4>Tack</h4>
             <List
               collection={tacks}
               name="tack"
               onChange={setSelectedTack}
               selected={selectedTack}
             />
-            <h3>Position</h3>
+            <h4>Position</h4>
             <List
               collection={positions}
               name="position"
@@ -145,11 +145,14 @@ function App() {
 
   return (
     <article className="App">
+      <h1>
+        {name} v{version}
+      </h1>
       <p>
         "But when I raise the sail and lose those ties, anyone else in the
         cockpit inevitably gets <b>a face full of sail</b>."
       </p>
-      <h1>Crossing</h1>
+      <h2>Crossing</h2>
       {notification && <p className="Notification">{notification}</p>}
       <ul>
         <li className={classNameA}>

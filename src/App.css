@@ -1,11 +1,12 @@
 .App {
-  margin: 2em;
+  margin: auto;
+  max-width: 600px;
   text-align: center;
 }
 
 .App__footer {
   font-size: small;
-  margin-top: 4em;
+  margin: 4em 0 2em;
 }
 
 .Legend {
