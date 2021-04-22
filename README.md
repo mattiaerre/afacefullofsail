@@ -7,3 +7,9 @@
 ```bash
 yarn deploy
 ```
+
+## Test
+
+```bash
+yarn test --coverage --watchAll=false
+```

@@ -12,6 +12,235 @@ exports[`App snapshot 1`] = `
       </b>
       ."
     </p>
+    <h1>
+      Crossing
+    </h1>
+    <ul>
+      <li
+        class="Section__li--standOn"
+      >
+        <section>
+          <h2>
+            Vessel A
+          </h2>
+          <form>
+            <h3>
+              Type
+            </h3>
+            <ul
+              class="List"
+            >
+              <li>
+                <input
+                  id="0000000-000-0000-000-00000000000"
+                  name="type"
+                  type="radio"
+                  value="a fishing vessel with nets in the water"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  fishing vessel
+                </label>
+              </li>
+              <li>
+                <input
+                  checked=""
+                  id="0000000-000-0000-000-00000000000"
+                  name="type"
+                  type="radio"
+                  value="big ship"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  big ship
+                </label>
+              </li>
+              <li>
+                <input
+                  id="0000000-000-0000-000-00000000000"
+                  name="type"
+                  type="radio"
+                  value="power-driven"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  power-driven
+                </label>
+              </li>
+              <li>
+                <input
+                  id="0000000-000-0000-000-00000000000"
+                  name="type"
+                  type="radio"
+                  value="sailboat"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  sailboat
+                </label>
+              </li>
+            </ul>
+          </form>
+        </section>
+      </li>
+      <li
+        class="Section__li--giveWay"
+      >
+        <section>
+          <h2>
+            Vessel B
+          </h2>
+          <form>
+            <h3>
+              Type
+            </h3>
+            <ul
+              class="List"
+            >
+              <li>
+                <input
+                  id="0000000-000-0000-000-00000000000"
+                  name="type"
+                  type="radio"
+                  value="a fishing vessel with nets in the water"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  fishing vessel
+                </label>
+              </li>
+              <li>
+                <input
+                  id="0000000-000-0000-000-00000000000"
+                  name="type"
+                  type="radio"
+                  value="big ship"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  big ship
+                </label>
+              </li>
+              <li>
+                <input
+                  id="0000000-000-0000-000-00000000000"
+                  name="type"
+                  type="radio"
+                  value="power-driven"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  power-driven
+                </label>
+              </li>
+              <li>
+                <input
+                  checked=""
+                  id="0000000-000-0000-000-00000000000"
+                  name="type"
+                  type="radio"
+                  value="sailboat"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  sailboat
+                </label>
+              </li>
+            </ul>
+            <h3>
+              Tack
+            </h3>
+            <ul
+              class="List"
+            >
+              <li>
+                <input
+                  checked=""
+                  id="0000000-000-0000-000-00000000000"
+                  name="tack"
+                  type="radio"
+                  value="port"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  port
+                </label>
+              </li>
+              <li>
+                <input
+                  id="0000000-000-0000-000-00000000000"
+                  name="tack"
+                  type="radio"
+                  value="startboard"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  startboard
+                </label>
+              </li>
+            </ul>
+            <h3>
+              Position
+            </h3>
+            <ul
+              class="List"
+            >
+              <li>
+                <input
+                  checked=""
+                  id="0000000-000-0000-000-00000000000"
+                  name="position"
+                  type="radio"
+                  value="leeward"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  leeward
+                </label>
+              </li>
+              <li>
+                <input
+                  id="0000000-000-0000-000-00000000000"
+                  name="position"
+                  type="radio"
+                  value="windward"
+                />
+                <label
+                  for="0000000-000-0000-000-00000000000"
+                >
+                  windward
+                </label>
+              </li>
+            </ul>
+          </form>
+        </section>
+      </li>
+    </ul>
+    <p
+      class="Legend"
+    >
+      <span
+        class="Legend__span--giveWay"
+      >
+        Give-way
+      </span>
+      <span
+        class="Legend__span--standOn"
+      >
+        Stand-on
+      </span>
+    </p>
     <footer
       class="App__footer"
     >
@@ -19,7 +248,7 @@ exports[`App snapshot 1`] = `
        
       afacefullofsail
        v
-      0.1.0
+      0.3.0
     </footer>
   </article>
 </div>
