@@ -43,11 +43,11 @@ function crossing(vesselA, vesselB) {
         vesselA.isThe = byPosition(vesselA.position);
         vesselB.isThe = byPosition(vesselB.position);
       } else {
-        throw new Error('same position');
+        throw new Error('Same tack and position');
       }
     }
   } else {
-    throw new Error('same type');
+    throw new Error('Same vessel type');
   }
 }
 
