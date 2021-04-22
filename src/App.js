@@ -21,7 +21,7 @@ import {
 
 function List({ collection, name, onChange, selected }) {
   return (
-    <ul>
+    <ul className="List">
       {collection.map((element) => {
         const id = uuid();
         return (
@@ -34,7 +34,12 @@ function List({ collection, name, onChange, selected }) {
               type="radio"
               value={element}
             />
-            <label htmlFor={id}>{element}</label>
+            <label htmlFor={id}>
+              {element.replace(
+                A_FISHING_VESSEL_WITH_NETS_IN_THE_WATER,
+                'fishing vessel'
+              )}
+            </label>
           </li>
         );
       })}
@@ -68,6 +73,13 @@ function Section({ name, onChange, position, tack, type }) {
     onChange(vessel);
   }, [onChange, selectedPosition, selectedTack, selectedType]);
 
+  useEffect(() => {
+    if (selectedType !== SAILBOAT) {
+      setSelectedPosition(LEEWARD);
+      setSelectedTack(PORT);
+    }
+  }, [selectedType]);
+
   return (
     <section>
       <h2>{name}</h2>
@@ -79,20 +91,24 @@ function Section({ name, onChange, position, tack, type }) {
           onChange={setSelectedType}
           selected={selectedType}
         />
-        <h3>Tack</h3>
-        <List
-          collection={tacks}
-          name="tack"
-          onChange={setSelectedTack}
-          selected={selectedTack}
-        />
-        <h3>Position</h3>
-        <List
-          collection={positions}
-          name="position"
-          onChange={setSelectedPosition}
-          selected={selectedPosition}
-        />
+        {selectedType === SAILBOAT && (
+          <>
+            <h3>Tack</h3>
+            <List
+              collection={tacks}
+              name="tack"
+              onChange={setSelectedTack}
+              selected={selectedTack}
+            />
+            <h3>Position</h3>
+            <List
+              collection={positions}
+              name="position"
+              onChange={setSelectedPosition}
+              selected={selectedPosition}
+            />
+          </>
+        )}
       </form>
     </section>
   );
@@ -120,7 +136,6 @@ function App() {
         setClassNameA(makeClassName(vesselA));
         setClassNameB(makeClassName(vesselB));
       } catch (error) {
-        // console.log(error);
         setNotification(error.message);
         setClassNameA(makeClassName({ ...vesselA, isThe: UNKNOWN }));
         setClassNameB(makeClassName({ ...vesselB, isThe: UNKNOWN }));
@@ -134,14 +149,15 @@ function App() {
         "But when I raise the sail and lose those ties, anyone else in the
         cockpit inevitably gets <b>a face full of sail</b>."
       </p>
+      <h1>Crossing</h1>
       {notification && <p className="Notification">{notification}</p>}
       <ul>
         <li className={classNameA}>
-          <Section name="A" onChange={setVesselA} type={BIG_SHIP} />
+          <Section name="Vessel A" onChange={setVesselA} type={BIG_SHIP} />
         </li>
         <li className={classNameB}>
           <Section
-            name="B"
+            name="Vessel B"
             onChange={setVesselB}
             position={LEEWARD}
             tack={PORT}
@@ -149,6 +165,10 @@ function App() {
           />
         </li>
       </ul>
+      <p className="Legend">
+        <span className="Legend__span--giveWay">Give-way</span>
+        <span className="Legend__span--standOn">Stand-on</span>
+      </p>
       <footer className="App__footer">
         {new Date().getFullYear()} {name} v{version}
       </footer>

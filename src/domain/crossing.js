@@ -40,11 +40,15 @@ function crossing(vesselA, vesselB) {
       vesselA.isThe = byTack(vesselA.tack);
       vesselB.isThe = byTack(vesselB.tack);
     } else {
-      vesselA.isThe = byPosition(vesselA.position);
-      vesselB.isThe = byPosition(vesselB.position);
+      if (vesselA.position !== vesselB.position) {
+        vesselA.isThe = byPosition(vesselA.position);
+        vesselB.isThe = byPosition(vesselB.position);
+      } else {
+        throw new Error('same position');
+      }
     }
   } else {
-    throw new Error(UNKNOWN);
+    throw new Error('same type');
   }
 }
 

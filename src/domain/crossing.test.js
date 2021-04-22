@@ -85,4 +85,21 @@ describe('sailing vessels', () => {
     expect(sailboatA.isThe).toBe(STAND_ON);
     expect(sailboatB.isThe).toBe(GIVE_WAY);
   });
+
+  it('same position', () => {
+    const sailboatA = new Vessel({
+      position: WINDWARD,
+      tack: STARBOARD,
+      type: SAILBOAT
+    });
+    const sailboatB = new Vessel({
+      position: WINDWARD,
+      tack: STARBOARD,
+      type: SAILBOAT
+    });
+
+    expect(() => {
+      crossing(sailboatA, sailboatB);
+    }).toThrowError();
+  });
 });

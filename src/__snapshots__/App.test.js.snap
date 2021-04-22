@@ -12,19 +12,24 @@ exports[`App snapshot 1`] = `
       </b>
       ."
     </p>
+    <h1>
+      Crossing
+    </h1>
     <ul>
       <li
         class="Section__li--standOn"
       >
         <section>
           <h2>
-            A
+            Vessel A
           </h2>
           <form>
             <h3>
               Type
             </h3>
-            <ul>
+            <ul
+              class="List"
+            >
               <li>
                 <input
                   id="0000000-000-0000-000-00000000000"
@@ -35,7 +40,7 @@ exports[`App snapshot 1`] = `
                 <label
                   for="0000000-000-0000-000-00000000000"
                 >
-                  a fishing vessel with nets in the water
+                  fishing vessel
                 </label>
               </li>
               <li>
@@ -76,68 +81,6 @@ exports[`App snapshot 1`] = `
                   for="0000000-000-0000-000-00000000000"
                 >
                   sailboat
-                </label>
-              </li>
-            </ul>
-            <h3>
-              Tack
-            </h3>
-            <ul>
-              <li>
-                <input
-                  id="0000000-000-0000-000-00000000000"
-                  name="tack"
-                  type="radio"
-                  value="port"
-                />
-                <label
-                  for="0000000-000-0000-000-00000000000"
-                >
-                  port
-                </label>
-              </li>
-              <li>
-                <input
-                  id="0000000-000-0000-000-00000000000"
-                  name="tack"
-                  type="radio"
-                  value="startboard"
-                />
-                <label
-                  for="0000000-000-0000-000-00000000000"
-                >
-                  startboard
-                </label>
-              </li>
-            </ul>
-            <h3>
-              Position
-            </h3>
-            <ul>
-              <li>
-                <input
-                  id="0000000-000-0000-000-00000000000"
-                  name="position"
-                  type="radio"
-                  value="leeward"
-                />
-                <label
-                  for="0000000-000-0000-000-00000000000"
-                >
-                  leeward
-                </label>
-              </li>
-              <li>
-                <input
-                  id="0000000-000-0000-000-00000000000"
-                  name="position"
-                  type="radio"
-                  value="windward"
-                />
-                <label
-                  for="0000000-000-0000-000-00000000000"
-                >
-                  windward
                 </label>
               </li>
             </ul>
@@ -149,13 +92,15 @@ exports[`App snapshot 1`] = `
       >
         <section>
           <h2>
-            B
+            Vessel B
           </h2>
           <form>
             <h3>
               Type
             </h3>
-            <ul>
+            <ul
+              class="List"
+            >
               <li>
                 <input
                   id="0000000-000-0000-000-00000000000"
@@ -166,7 +111,7 @@ exports[`App snapshot 1`] = `
                 <label
                   for="0000000-000-0000-000-00000000000"
                 >
-                  a fishing vessel with nets in the water
+                  fishing vessel
                 </label>
               </li>
               <li>
@@ -213,7 +158,9 @@ exports[`App snapshot 1`] = `
             <h3>
               Tack
             </h3>
-            <ul>
+            <ul
+              class="List"
+            >
               <li>
                 <input
                   checked=""
@@ -245,7 +192,9 @@ exports[`App snapshot 1`] = `
             <h3>
               Position
             </h3>
-            <ul>
+            <ul
+              class="List"
+            >
               <li>
                 <input
                   checked=""
@@ -278,6 +227,20 @@ exports[`App snapshot 1`] = `
         </section>
       </li>
     </ul>
+    <p
+      class="Legend"
+    >
+      <span
+        class="Legend__span--giveWay"
+      >
+        Give-way
+      </span>
+      <span
+        class="Legend__span--standOn"
+      >
+        Stand-on
+      </span>
+    </p>
     <footer
       class="App__footer"
     >
