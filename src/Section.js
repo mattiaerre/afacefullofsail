@@ -10,6 +10,10 @@ import {
   STARBOARD,
   WINDWARD
 } from './domain/constants';
+import bigShip from './images/38951976142_dabd01387b_w.jpg';
+import fishingVessel from './images/Fishing Trawler Boat with Fish Net - Vector Image.png';
+import powerDriven from './images/Pleasure Craft Boat - Vector Image.png';
+import sailboat from './images/450px-Catalina_30_sailboat_Veritas_3889.jpeg';
 import List from './List';
 
 function Section({ name, onChange, position, tack, type }) {
@@ -45,6 +49,13 @@ function Section({ name, onChange, position, tack, type }) {
     }
   }, [selectedType]);
 
+  const images = {
+    [A_FISHING_VESSEL_WITH_NETS_IN_THE_WATER]: fishingVessel,
+    [BIG_SHIP]: bigShip,
+    [POWER_DRIVEN]: powerDriven,
+    [SAILBOAT]: sailboat
+  };
+
   return (
     <section>
       <h3>{name}</h3>
@@ -55,6 +66,13 @@ function Section({ name, onChange, position, tack, type }) {
           name="type"
           onChange={setSelectedType}
           selected={selectedType}
+        />
+        <img
+          alt={selectedType}
+          className="Image"
+          height="200px"
+          src={images[selectedType]}
+          width="200px"
         />
         {selectedType === SAILBOAT && (
           <>
