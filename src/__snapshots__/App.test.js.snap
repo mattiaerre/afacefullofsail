@@ -91,6 +91,13 @@ exports[`App snapshot 1`] = `
                 </label>
               </li>
             </ul>
+            <img
+              alt="big ship"
+              class="Image"
+              height="200px"
+              src="38951976142_dabd01387b_w.jpg"
+              width="200px"
+            />
           </form>
         </section>
       </li>
@@ -166,6 +173,13 @@ exports[`App snapshot 1`] = `
                 </label>
               </li>
             </ul>
+            <img
+              alt="sailboat"
+              class="Image"
+              height="200px"
+              src="450px-Catalina_30_sailboat_Veritas_3889.jpeg"
+              width="200px"
+            />
             <h4>
               Tack
             </h4>

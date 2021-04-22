@@ -9,6 +9,11 @@
   margin: 4em 0 2em;
 }
 
+.Image {
+  border: 1px solid black;
+  margin-top: 0.5em;
+}
+
 .Legend {
   align-items: center;
   display: flex;
