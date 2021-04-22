@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/afacefullofsail/static/css/main.87102c92.chunk.css",
-    "main.js": "/afacefullofsail/static/js/main.28eb8c7e.chunk.js",
-    "main.js.map": "/afacefullofsail/static/js/main.28eb8c7e.chunk.js.map",
+    "main.css": "/afacefullofsail/static/css/main.832b201e.chunk.css",
+    "main.js": "/afacefullofsail/static/js/main.17cd2c78.chunk.js",
+    "main.js.map": "/afacefullofsail/static/js/main.17cd2c78.chunk.js.map",
     "runtime-main.js": "/afacefullofsail/static/js/runtime-main.9c9f22fe.js",
     "runtime-main.js.map": "/afacefullofsail/static/js/runtime-main.9c9f22fe.js.map",
-    "static/js/2.0059e9cf.chunk.js": "/afacefullofsail/static/js/2.0059e9cf.chunk.js",
-    "static/js/2.0059e9cf.chunk.js.map": "/afacefullofsail/static/js/2.0059e9cf.chunk.js.map",
+    "static/js/2.ea812975.chunk.js": "/afacefullofsail/static/js/2.ea812975.chunk.js",
+    "static/js/2.ea812975.chunk.js.map": "/afacefullofsail/static/js/2.ea812975.chunk.js.map",
     "static/js/3.2fdc08e4.chunk.js": "/afacefullofsail/static/js/3.2fdc08e4.chunk.js",
     "static/js/3.2fdc08e4.chunk.js.map": "/afacefullofsail/static/js/3.2fdc08e4.chunk.js.map",
     "index.html": "/afacefullofsail/index.html",
-    "static/css/main.87102c92.chunk.css.map": "/afacefullofsail/static/css/main.87102c92.chunk.css.map",
-    "static/js/2.0059e9cf.chunk.js.LICENSE.txt": "/afacefullofsail/static/js/2.0059e9cf.chunk.js.LICENSE.txt"
+    "static/css/main.832b201e.chunk.css.map": "/afacefullofsail/static/css/main.832b201e.chunk.css.map",
+    "static/js/2.ea812975.chunk.js.LICENSE.txt": "/afacefullofsail/static/js/2.ea812975.chunk.js.LICENSE.txt",
+    "static/media/38951976142_dabd01387b_w.a3eeba21.jpg": "/afacefullofsail/static/media/38951976142_dabd01387b_w.a3eeba21.jpg",
+    "static/media/450px-Catalina_30_sailboat_Veritas_3889.c9b93ea4.jpeg": "/afacefullofsail/static/media/450px-Catalina_30_sailboat_Veritas_3889.c9b93ea4.jpeg",
+    "static/media/Fishing Trawler Boat with Fish Net - Vector Image.09b262fd.png": "/afacefullofsail/static/media/Fishing Trawler Boat with Fish Net - Vector Image.09b262fd.png",
+    "static/media/Pleasure Craft Boat - Vector Image.d0ed35fb.png": "/afacefullofsail/static/media/Pleasure Craft Boat - Vector Image.d0ed35fb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9c9f22fe.js",
-    "static/js/2.0059e9cf.chunk.js",
-    "static/css/main.87102c92.chunk.css",
-    "static/js/main.28eb8c7e.chunk.js"
+    "static/js/2.ea812975.chunk.js",
+    "static/css/main.832b201e.chunk.css",
+    "static/js/main.17cd2c78.chunk.js"
   ]
 }
