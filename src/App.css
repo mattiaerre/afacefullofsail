@@ -70,6 +70,12 @@
   border-color: #00ff00;
 }
 
+.Tacks__Image {
+  border: 1px solid black;
+  margin: 0 0.5em;
+  padding: 0.5em;
+}
+
 label {
   margin-right: 0.5em;
   text-transform: capitalize;

@@ -13,6 +13,7 @@ import {
 } from './domain/constants';
 import './App.css';
 import Section from './Section';
+import Tacks from './Tacks';
 
 function App() {
   const [classNameA, setClassNameA] = useState(null);
@@ -74,6 +75,7 @@ function App() {
         <span className="Legend__span--giveWay">Give-way</span>
         <span className="Legend__span--standOn">Stand-on</span>
       </p>
+      <Tacks />
       <footer className="App__footer">
         {new Date().getFullYear()} {name} v{version}
       </footer>

@@ -270,6 +270,24 @@ exports[`App snapshot 1`] = `
         Stand-on
       </span>
     </p>
+    <p
+      class="Tacks"
+    >
+      <img
+        alt="jibing"
+        class="Tacks__Image"
+        height="320px"
+        src="sailing-26588_1280.png"
+        width="240px"
+      />
+      <img
+        alt="tacking"
+        class="Tacks__Image"
+        height="320px"
+        src="sailing-26592_1280.png"
+        width="240px"
+      />
+    </p>
     <footer
       class="App__footer"
     >
