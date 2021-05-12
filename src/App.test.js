@@ -13,7 +13,7 @@ test('App snapshot', () => {
   expect(container).toMatchSnapshot();
 });
 
-test('same vessel type', async () => {
+test('same vessel type', () => {
   render(<App />);
 
   fireEvent.click(screen.getAllByTestId('radio')[5]); // Vessel B, type: BIG_SHIP

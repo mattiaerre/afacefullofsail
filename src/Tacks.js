@@ -6,22 +6,32 @@ function Tacks() {
   const width = '240px';
 
   return (
-    <p className="Tacks">
-      <img
-        alt="jibing"
-        className="Tacks__Image"
-        height={height}
-        src={jibing}
-        width={width}
-      />
-      <img
-        alt="tacking"
-        className="Tacks__Image"
-        height={height}
-        src={tacking}
-        width={width}
-      />
-    </p>
+    <article className="Tacks">
+      <section>
+        <img
+          alt="jibing"
+          className="Tacks__Image"
+          height={height}
+          src={jibing}
+          width={width}
+        />
+        <p>"Prepare to jibe!"</p>
+        <p>"Ready."</p>
+        <p>"Jibe-ho," or "Jibing,"</p>
+      </section>
+      <section>
+        <img
+          alt="tacking"
+          className="Tacks__Image"
+          height={height}
+          src={tacking}
+          width={width}
+        />
+        <p>"Prepare to tack!" or "Ready about!"</p>
+        <p>"Ready!"</p>
+        <p>"Helm's a-lee," or "Tacking,"</p>
+      </section>
+    </article>
   );
 }
 

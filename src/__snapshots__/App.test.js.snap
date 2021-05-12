@@ -270,24 +270,46 @@ exports[`App snapshot 1`] = `
         Stand-on
       </span>
     </p>
-    <p
+    <article
       class="Tacks"
     >
-      <img
-        alt="jibing"
-        class="Tacks__Image"
-        height="320px"
-        src="sailing-26588_1280.png"
-        width="240px"
-      />
-      <img
-        alt="tacking"
-        class="Tacks__Image"
-        height="320px"
-        src="sailing-26592_1280.png"
-        width="240px"
-      />
-    </p>
+      <section>
+        <img
+          alt="jibing"
+          class="Tacks__Image"
+          height="320px"
+          src="sailing-26588_1280.png"
+          width="240px"
+        />
+        <p>
+          "Prepare to jibe!"
+        </p>
+        <p>
+          "Ready."
+        </p>
+        <p>
+          "Jibe-ho," or "Jibing,"
+        </p>
+      </section>
+      <section>
+        <img
+          alt="tacking"
+          class="Tacks__Image"
+          height="320px"
+          src="sailing-26592_1280.png"
+          width="240px"
+        />
+        <p>
+          "Prepare to tack!" or "Ready about!"
+        </p>
+        <p>
+          "Ready!"
+        </p>
+        <p>
+          "Helm's a-lee," or "Tacking,"
+        </p>
+      </section>
+    </article>
     <footer
       class="App__footer"
     >
