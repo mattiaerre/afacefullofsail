@@ -330,6 +330,8 @@ exports[`App snapshot 1`] = `
       <li>
         <a
           href="https://asa.com/news/2022/03/14/boat-anotomy/"
+          rel="noreferrer"
+          target="_blank"
         >
           https://asa.com/news/2022/03/14/boat-anotomy/
         </a>

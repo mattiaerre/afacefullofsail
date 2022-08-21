@@ -89,7 +89,11 @@ function App({ name, version }) {
       <h2>Resources</h2>
       <ul>
         <li>
-          <a href="https://asa.com/news/2022/03/14/boat-anotomy/">
+          <a
+            href="https://asa.com/news/2022/03/14/boat-anotomy/"
+            rel="noreferrer"
+            target="_blank"
+          >
             https://asa.com/news/2022/03/14/boat-anotomy/
           </a>
         </li>
