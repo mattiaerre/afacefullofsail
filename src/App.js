@@ -1,6 +1,5 @@
 import classnames from 'classnames';
 import { useEffect, useState } from 'react';
-import { name, version } from '../package.json';
 import crossing from './domain/crossing';
 import {
   BIG_SHIP,
@@ -15,7 +14,7 @@ import './App.css';
 import Section from './Section';
 import Tacks from './Tacks';
 
-function App() {
+function App({ name, version }) {
   const [classNameA, setClassNameA] = useState(null);
   const [classNameB, setClassNameB] = useState(null);
   const [notification, setNotification] = useState(null);
