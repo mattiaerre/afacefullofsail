@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/afacefullofsail/static/css/main.64a711a2.css",
+    "main.js": "/afacefullofsail/static/js/main.ea017e22.js",
+    "static/js/787.0726a564.chunk.js": "/afacefullofsail/static/js/787.0726a564.chunk.js",
+    "static/media/Fishing Trawler Boat with Fish Net - Vector Image.png": "/afacefullofsail/static/media/Fishing Trawler Boat with Fish Net - Vector Image.09b262fd4fde9744324d.png",
+    "static/media/Pleasure Craft Boat - Vector Image.png": "/afacefullofsail/static/media/Pleasure Craft Boat - Vector Image.d0ed35fb3f2fe265b118.png",
+    "static/media/news-2020-9-24-boat-anatomy-1024x512.png": "/afacefullofsail/static/media/news-2020-9-24-boat-anatomy-1024x512.be6f748cf8d3121af94d.png",
+    "static/media/sailing-26588_1280.png": "/afacefullofsail/static/media/sailing-26588_1280.b37bcff94c21862eb76e.png",
+    "static/media/sailing-26592_1280.png": "/afacefullofsail/static/media/sailing-26592_1280.8f98dcebb6f783f7343a.png",
+    "static/media/450px-Catalina_30_sailboat_Veritas_3889.jpeg": "/afacefullofsail/static/media/450px-Catalina_30_sailboat_Veritas_3889.c9b93ea4b260a28a2829.jpeg",
+    "static/media/38951976142_dabd01387b_w.jpg": "/afacefullofsail/static/media/38951976142_dabd01387b_w.a3eeba21d949e5f25278.jpg",
+    "index.html": "/afacefullofsail/index.html",
+    "main.64a711a2.css.map": "/afacefullofsail/static/css/main.64a711a2.css.map",
+    "main.ea017e22.js.map": "/afacefullofsail/static/js/main.ea017e22.js.map",
+    "787.0726a564.chunk.js.map": "/afacefullofsail/static/js/787.0726a564.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64a711a2.css",
+    "static/js/main.ea017e22.js"
+  ]
+}
