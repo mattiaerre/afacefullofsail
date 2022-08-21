@@ -7,6 +7,7 @@ function Tacks() {
 
   return (
     <article className="Tacks">
+      <h2>Tacks</h2>
       <section>
         <img
           alt="jibing"

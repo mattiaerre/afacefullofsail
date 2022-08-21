@@ -10,6 +10,7 @@ import {
   STAND_ON,
   UNKNOWN
 } from './domain/constants';
+import anatomy from './images/news-2020-9-24-boat-anatomy-1024x512.png';
 import './App.css';
 import Section from './Section';
 import Tacks from './Tacks';
@@ -43,6 +44,8 @@ function App({ name, version }) {
     }
   }, [vesselA, vesselB]);
 
+  const size = 256;
+
   return (
     <article className="App">
       <h1>{name}</h1>
@@ -75,6 +78,26 @@ function App({ name, version }) {
         <span className="Legend__span--standOn">Stand-on</span>
       </p>
       <Tacks />
+      <h2>The Anatomy of a Boat</h2>
+      <img
+        alt="the anatomy of a boat"
+        className="Tacks__Image"
+        height={`${size}px`}
+        src={anatomy}
+        width={`${size * 2}px`}
+      />
+      <h2>Resources</h2>
+      <ul>
+        <li>
+          <a
+            href="https://asa.com/news/2022/03/14/boat-anotomy/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            https://asa.com/news/2022/03/14/boat-anotomy/
+          </a>
+        </li>
+      </ul>
       <footer className="App__footer">
         {new Date().getFullYear()} {name} v{version}
       </footer>
