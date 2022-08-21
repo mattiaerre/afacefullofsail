@@ -1,7 +1,7 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import { Helmet } from 'react-helmet';
-import { name, version } from '../package.json';
+import { name, version } from './info';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,7 +11,7 @@ ReactDOM.render(
     <Helmet>
       <title>{`${name} v${version}`}</title>
     </Helmet>
-    <App />
+    <App name={name} version={version} />
   </StrictMode>,
   document.getElementById('root')
 );
