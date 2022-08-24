@@ -11,6 +11,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+      - name: Install
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: install # will run `yarn install` command
       - name: Build & Deploy
         uses: borales/actions-yarn@v3.0.0
         with:
