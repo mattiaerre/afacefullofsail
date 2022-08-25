@@ -22,4 +22,4 @@ jobs:
       - name: Build & Deploy
         uses: borales/actions-yarn@v3.0.0
         with:
-          cmd: deploy # will run `yarn deploy` command
+          cmd: deploy:action # will run `yarn deploy:action` command
