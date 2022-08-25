@@ -1,6 +1,6 @@
 {
   "name": "afacefullofsail",
-  "version": "0.10.3",
+  "version": "0.10.4",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -19,7 +19,6 @@
   "scripts": {
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
-    "deploy:action": "gh-pages -d build -r https://github.com/mattiaerre/afacefullofsail.git",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
     "prettier:fix": "prettier './{src,tools}/**/*.{css,js,json}' --write",
